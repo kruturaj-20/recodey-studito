@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Newsreader', Georgia, Cambria, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    color: #1a1a19;
+    background-color: #fafaf8;
+    letter-spacing: -0.011em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    letter-spacing: -0.025em;
+  }
+  
+  .font-serif {
+    font-family: var(--font-serif);
+  }
+  
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Subtle architectural divider lines */
+.border-grid {
+  border-color: #e7e5e1;
+}
+
+/* Elegant editorial scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #fafaf8;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6d3cc;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a29e;
+}

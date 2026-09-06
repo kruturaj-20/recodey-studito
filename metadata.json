@@ -1,0 +1,6 @@
+{
+  "name": "Recodey Studio",
+  "description": "Premier digital agency specializing in high-performance website development, technical SEO, and data-driven social media marketing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
